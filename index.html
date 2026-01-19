@@ -124,16 +124,28 @@
 .hero__content {
   position: relative;
   z-index: 2;
-  height: 100%;
-  display: flex;
+
+  /* Center the box */
+  display: inline-flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+
+  /* Rectangle shadow box */
+  background: rgba(0, 0, 0, 0.45); /* transparent black */
+  padding: 18px 28px;
+  border-radius: 8px;
+
   text-align: center;
   color: #fff;
-  background: rgba(0, 0, 0, 0.45);
-  padding: 20px 28px;
-  border-radius: 10px;
+}
+            .hero {
+  position: relative;
+  height: 320px;
+
+  display: flex;
+  align-items: center;   /* vertical center */
+  justify-content: center; /* horizontal center */
 }
 </style>
 
