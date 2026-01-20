@@ -31,14 +31,6 @@
         <script type="text/javascript" src="js/custom.js"></script>
 
         <style>
-  /* HERO */
-  .hero {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 14px; /* optional */
-  }
 
   /* Height control: reduce height (desktop), slightly taller on mobile */
   
@@ -58,7 +50,7 @@
     inset: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;       /* key: fill width, crop height nicely */
+    object-fit: contain;       /* key: fill width, crop height nicely */
     object-position: center; /* can tweak: center top, etc */
     transform: scale(1.02);  /* tiny scale to avoid edge gaps */
   }
